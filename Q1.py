@@ -24,6 +24,7 @@ C1[0] = C1_0
 C2[0] = C2_0
 
 
+
 for i in range(n_passos - 1):
 
     dC1_dt = (Qin / V1) * (Cin - C1[i]) - (Q12 / V1) * C1[i]
